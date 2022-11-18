@@ -4,12 +4,7 @@ var port = 8080 || process.env.PORT
 
 app.get('/',function(req,res,next){
     res.send("API is Run!!");
-<<<<<<< HEAD
 })
-app.listen(8080||process.env.PORT, function () {
-    console.log("app runing port ", PORT );
+app.listen(2222, function () {
+    console.log("CORS PORT 85");
   });
-module.exports = app
-=======
-})
->>>>>>> parent of 2c02c8f (Update app.js)
